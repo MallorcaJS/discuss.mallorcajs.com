@@ -1,7 +1,5 @@
 accounts-base@1.0.0
-accounts-oauth@1.0.0
 accounts-password@1.0.0
-accounts-twitter@1.0.0
 accounts-ui-unstyled@1.0.0
 accounts-ui@1.0.0
 aldeed:autoform@0.17.1
@@ -61,8 +59,6 @@ mrt:moment@2.8.1
 mrt:underscore-string-latest@2.3.3
 npm-bcrypt@0.7.7
 npm-container@1.0.0
-oauth1@1.0.0
-oauth@1.0.0
 observe-sequence@1.0.1
 ordered-dict@1.0.0
 percolatestudio:synced-cron@0.1.1
@@ -98,7 +94,6 @@ telescope-theme-mallorcajs@0.0.0
 templating@1.0.4
 tmeasday:crypto-base@3.1.2
 tmeasday:crypto-md5@3.1.2
-twitter@1.0.0
 ui@1.0.0
 underscore@1.0.0
 webapp@1.0.2

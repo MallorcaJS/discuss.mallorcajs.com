@@ -1,6 +1,6 @@
 <template name="newPostItem">
 
-  <div class="post {{rankClass}} {{#if sticky}}sticky{{/if}} {{inactiveClass}}" id="{{_id}}">
+  <a href="/posts/{{_id}}" class="post {{rankClass}} {{#if sticky}}sticky{{/if}} {{inactiveClass}}" id="{{_id}}">
     <div class="modules-group left-modules">
       <div class="inner">
       {{#each leftPostModules}}
@@ -28,6 +28,6 @@
       {{/each}}
       </div>
     </div>
-  </div>
+  </a>
 
 </template>

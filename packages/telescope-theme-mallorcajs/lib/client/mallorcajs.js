@@ -16,9 +16,9 @@ templates['postUpvote'] = "newPostUpVote"
 
 
 
-// heroModules.push({
-//   template: 'heroTest'
-// });
+heroModules.push({
+  template: 'heroText'
+});
 
 
 

@@ -19,7 +19,7 @@ Package.on_use(function (api) {
     'lib/client/views/newPostContent.html',
     'lib/client/views/newPostDiscuss.html',
     'lib/client/views/footer.html',
-    'lib/client/views/heroTest.html',
+    'lib/client/views/heroText.html',
     'lib/client/mallorcajs.js',
     ], ['client']);
 
