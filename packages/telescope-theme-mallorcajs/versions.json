@@ -5,6 +5,10 @@
       "1.0.3"
     ],
     [
+      "chrismbeckett:fontawesome4",
+      "4.2.1"
+    ],
+    [
       "deps",
       "1.0.1"
     ],

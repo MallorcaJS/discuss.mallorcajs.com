@@ -1,0 +1,9 @@
+<template name="newPostContent">
+  <div class="post-info">
+    <h3 class="post-heading">
+      {{#each postHeading}}
+        {{> UI.dynamic template=getTemplate data=..}}
+      {{/each}}
+    </h3>
+  </div>
+</template>

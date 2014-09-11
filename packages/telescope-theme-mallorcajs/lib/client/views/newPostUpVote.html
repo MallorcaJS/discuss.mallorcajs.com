@@ -1,0 +1,11 @@
+<template name="newPostUpVote">
+
+  <!-- <div class="post-rank"><span>{{oneBasedRank}}</span></div> -->
+
+  {{#if upvoted}}
+    <a class="upvote-link voted"><i class=" fa fa-arrow-up"></i></a>
+  {{else}}
+    <a class="upvote-link not-voted" href="#"><i class="fa fa-arrow-up"></i></a>
+  {{/if}}
+
+</template>

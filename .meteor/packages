@@ -13,7 +13,6 @@ accounts-password
 accounts-twitter
 spiderable
 email
-accounts-facebook
 
 # Atmosphere Packages
 
@@ -65,4 +64,4 @@ matb33:collection-hooks
 djedi:sanitize-html
 telescope-theme-base
 telescope-theme-mallorcajs
-
+chrismbeckett:fontawesome4

@@ -1,0 +1,8 @@
+<template name="newPostMeta">
+  <div class="post-meta-item">
+    <span class="points">+{{baseScore}} </span>
+    {{#if can_edit}}
+      | <a href="/posts/{{_id}}/edit" class="edit-link goto-edit">Edit</a>
+    {{/if}}
+  </div>
+</template>

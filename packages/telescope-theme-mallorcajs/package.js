@@ -6,15 +6,29 @@ Package.on_use(function (api) {
 
   //Third party packages
 
-  // api.use(['bbfc:refills'], ['client']);
+  api.use(['chrismbeckett:fontawesome4'], ['client']);
 
   api.add_files([
     'lib/client/stylesheets/test.css',
-    'lib/client/views/new_posts_list.html',
-    'lib/client/views/new_post_item.html',
+    'lib/client/views/newNav.html',
+    'lib/client/views/newPostList.html',
+    'lib/client/views/newPostItem.html',
+    'lib/client/views/newPostUpVote.html',
+    'lib/client/views/newPostUpVote.js',
+    'lib/client/views/newPostMeta.html',
+    'lib/client/views/newPostContent.html',
+    'lib/client/views/newPostDiscuss.html',
     'lib/client/views/footer.html',
     'lib/client/views/heroTest.html',
     'lib/client/mallorcajs.js',
     ], ['client']);
+
+
+  api.export([
+    'postHeading',
+    'postMeta',
+    // 'postContent',
+
+    ]);
 
 });
